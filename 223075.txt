@@ -1,0 +1,95 @@
+mkdir SI_2024_lab1_223075
+
+cd SI_2024_lab1_223075
+
+git init
+
+git remote add origin https://github.com/teodoravel/SI_2024_lab1_223075
+
+code README.md
+
+git add README.md
+
+git commit README.md -m "Initial commit"
+
+git add -A
+
+git commit -am "Add starter code"
+
+git branch bug1
+
+git branch bug2
+
+git switch bug1
+  
+code .\SILab1_1.java
+
+git add .\SILab1_1.java
+
+git commit .\SILab1_1.java -m "Fix wrong condition in filterOddLengthStrings"
+
+git switch bug2
+
+git add .\SILab1_2.java
+
+git commit -m "Fix wrong condition in makeBigStringFrom"
+
+git switch bug1
+
+code .\SILab1Main.java
+
+git add .\SILab1Main.java
+
+git commit -m "Call method filterOddLengthStrings in main class"
+
+git switch bug2
+
+code .\SILab1Main.java
+
+git add .\SILab1Main.java
+
+git commit -m "Call method makeBigStringFrom in main class"
+
+git push origin master
+
+git push origin bug1
+
+git push origin bug2
+
+git switch master
+
+git merge bug1
+
+git push origin bug1
+
+git push origin bug2
+
+git switch master
+
+git switch bug2
+
+git rebase master
+
+code SILab1Main.java
+
+git status
+
+git add -A
+
+git rebase --continue
+
+git switch master
+
+git merge bug2    
+
+git push origin master
+
+git push origin bug1
+
+git push origin bug2
+
+git push origin bug2 --force
+
+code logs.txt
+
+git log

@@ -1,0 +1,42 @@
+commit 638a0c191cfbe4b78edf60b07a48d7260a096a7e (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:50:15 2024 +0200
+
+    Rebase
+
+commit 30dd22f0df190cef0957724d1f203c1c7ed264da
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:38:10 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 9aed8af99e795a025a200bdbc3c25d34c3205b57 (origin/bug1, bug1)
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:42:26 2024 +0200
+:...skipping...
+commit 638a0c191cfbe4b78edf60b07a48d7260a096a7e (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:50:15 2024 +0200
+
+    Rebase
+
+commit 30dd22f0df190cef0957724d1f203c1c7ed264da  
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:38:10 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom     
+
+commit 9aed8af99e795a025a200bdbc3c25d34c3205b57 (origin/bug1, bug1)
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:42:26 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 4dc0b484eb3d8ba1150b97974fe1fb34e004e580
+Author: teodoravel <veljanoskateodora9@gmail.com>
+Date:   Sun Apr 14 15:21:41 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 879f1d7a1441fb201d560acfed1ebf9588481b0f
+Author: teodoravel <veljanoskateodora9@gmail.com>
